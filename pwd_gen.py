@@ -1,3 +1,22 @@
+# Program to generate random password which have the following features :
+#   
+#   ● Minimum length of 12 characters and maximum length of 32 characters.
+#   
+#   ● Should always start with a lower case alphabet and end with an uppercase
+#       alphabet.
+#   
+#   ● Should have at least 2 lower case alphabet, 2 upper case alphabet, 1 number,
+#       and 1 special character. No space allowed in the generated password.
+#   
+#   ● Should not use any dictionary for password generation.
+#   
+#   ● Do not use any inbuilt function for randomization; make your own
+#       pseudo-random number generator.
+#   
+#   ● GUI - There should be one button for generating a password which will be
+#       shown on the same screen inside some label, there should be one button
+#       which will copy the password on the clipboard.
+
 import time
 
 MAX_LEN = 32
